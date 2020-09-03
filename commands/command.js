@@ -3,7 +3,7 @@ const {BOT_PREFIX} = process.env
 function clean(text) {
     return text
         .replace(/§./gm, '')
-        .replace(/(\~|\_|\`|\*)/gm, '')
+        .replace(/(\~|\_|\`|\*)/gm, '\\$1')
         .trim()
 }
 
