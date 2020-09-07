@@ -55,7 +55,7 @@ module.exports.run = async (bot, msg, args) => {
 
 module.exports.help = {
     name: 'top',
-    aliases: ['topplaytime', 'toppt'],
+    aliases: ['topplaytime', 'toppt', 'leaderboard'],
     description: 'Check the playtime leaderboard.',
     admin: false
 }
